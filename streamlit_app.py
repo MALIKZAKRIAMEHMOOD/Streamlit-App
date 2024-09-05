@@ -4,7 +4,7 @@ import pandas as pd
 # import pickle
 import joblib
 
-model = joblib.load('K-Nearest Neighboursmodel.pkl')
+model = joblib.load('K-Nearest Neighborsmodel.pkl')
 
 with open('accuracy.txt', 'r') as file:
   accuracy = file.read()
