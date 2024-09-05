@@ -17,7 +17,7 @@ st.header("Real_Time Prediction")
 test_data = pd.read_csv('mobile_price_range_data.csv')
 
 x_test = test_data.iloc[:, :-1]
-y_test = test_data.iloc[;, -1]
+y_test = test_data.iloc[:, -1]
 
 input_data = []
 for col in x_test.columns:
