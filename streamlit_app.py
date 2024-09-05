@@ -29,5 +29,5 @@ input_df = pd.DataFrame([input_data], columns = x_test.columns)
 if st.button("Predict"):
   prediction = model.predict(input_df)
 
-st.header("Accuracy Plot)
+st.header("Accuracy Plot")
 st.bar_chart([float(accuracy.split(': ')[1])])
